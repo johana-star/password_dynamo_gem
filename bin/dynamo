@@ -1,2 +1,11 @@
 #!/usr/bin/env ruby
+require_relative "../lib/dynamo"
 
+@dynamo = Dynamo.new
+
+case ARGF.argv.first
+when "-c", "--complex"
+	puts @dynamo.generate_password :complex
+else
+	puts @dynamo.generate_password
+end
