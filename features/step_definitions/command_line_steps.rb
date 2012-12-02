@@ -4,7 +4,7 @@ Given /^I have a Dynamo class$/ do
   @dynamo = Dynamo.new
 end
 
-When /^I call generate password$/ do
+When /^I generate a password$/ do
   @result = @dynamo.generate_password
 end
 

@@ -4,9 +4,13 @@ class Dynamo
 	def initialize
 	end
 
-	def generate_password(words_in_password = 4)
+	def generate_password(style=:simple,words_in_password = 4)
 		word_array = []
 		words_in_password.times{ word_array << WORDS.sample }
-		word_array.join(' ')
+		case style
+		when :simple
+			word_array.join(' ')
+		when :complex
+		end
 	end
 end
