@@ -1,6 +1,7 @@
 class Dynamo
-	WORDS ||= IO.readlines(File.expand_path('../words.txt', __FILE__)).map(&:chomp).uniq!
-	
+	dictionary_path = File.expand_path('../words.txt', __FILE__)
+	WORDS 					||= IO.readlines(dictionary_path).map(&:chomp).uniq!
+
 	def initialize
 	end
 
