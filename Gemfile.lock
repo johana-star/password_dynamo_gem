@@ -11,6 +11,7 @@ GEM
     gherkin (2.11.5)
       json (>= 1.4.6)
     json (1.7.5)
+    oyster (0.9.5)
     rake (10.0.2)
     rspec (2.12.0)
       rspec-core (~> 2.12.0)
@@ -26,5 +27,6 @@ PLATFORMS
 
 DEPENDENCIES
   cucumber (~> 1.2.1)
+  oyster (~> 0.9.5)
   rake (~> 10.0.2)
   rspec (~> 2.12.0)

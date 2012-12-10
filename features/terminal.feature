@@ -3,11 +3,9 @@ Feature: Providing passwords at the command line
 	In order to have unique passwords anywhere I use them.
 
 Scenario: Simple password
-	Given I call 'dynamo'
-	When I give no options
-	Then I should receive a simple passphrase
+	Given the user calls 'dynamo'
+	Then the program returns a simple passphrase
 
 Scenario: Complex password
-	Given I call 'dynamo'
-	When I give --complex as an option
-	Then I should receive a complex passphrase
+	Given the user calls 'dynamo --complex'
+	Then the program returns a complex passphrase

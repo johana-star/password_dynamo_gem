@@ -1,23 +1,14 @@
 load "bin/dynamo"
 
-# Determine how to test the command line.
-#
-# Given /^I call 'dynamo'$/ do
-#   pending
-# end
-# 
-# When /^I give no options$/ do
-#   pending # express the regexp above with the code you wish you had
-# end
-# 
-# When /^I give \-\-complex as an option$/ do
-#   pending # express the regexp above with the code you wish you had
-# end
-# 
-# Then /^I should receive a simple passphrase$/ do
-#   pending # express the regexp above with the code you wish you had
-# end
-# 
-# Then /^I should receive a complex passphrase$/ do
-#   pending # express the regexp above with the code you wish you had
-# end
+Given /^the user calls '(.*)'$/ do |command|
+  @io     = StringIO.new
+  @result = Terminal.new(command.split(/\s+/), @io)
+end
+
+Then /^the program returns a simple passphrase$/ do
+  pending
+end
+
+Then /^the program returns a complex passphrase$/ do
+  pending
+end
