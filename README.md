@@ -2,6 +2,8 @@
 
 [↳ Jump to how it works](#how-it-works)
 
+[Tested for Ruby 1.9.2 and 1.9.3 on Travis](https://travis-ci.org/strand/password_dynamo_gem)
+
 #### Background ####
 
 Password Dynamo is a command line tool that generates passphrases are difficult to guess but easy to remember.
