@@ -16,15 +16,15 @@ This gem is based off of this [sinatra](http://password-dynamo.heroku.com/) [app
 
 Install the gem with the command `gem install password-dynamo`. Then, at the command prompt, call `dynamo` and Password Dynamo will respond with a four word passphrase. If you call it with the `--complex` or `-c` flag it will respond with a complex passphrase which contains a capital letter, a number, dashes, and no spaces. This password will satisfy the complexity requirements of most sites. For example:
 
-> 22:36 ~/Code: gem install password_dynamo
-> Fetching: password_dynamo-0.0.00016.gem (100%)
-> Successfully installed password_dynamo-0.0.00016
-> 1 gem installed
-> Installing ri documentation for password_dynamo-0.0.00016...
-> Installing RDoc documentation for password_dynamo-0.0.00016...
-> 22:37 ~/Code: dynamo
-> chopped ship grill howdy
-> 22:37 ~/Code: dynamo -c
-> visitation6door's-Formality-relative
-> 22:37 ~/Code: dynamo --complex
-> messed2cosmo-lawn-Complaint
+> 22:36 ~/Code: **gem install password_dynamo**  
+> Fetching: password_dynamo-0.0.00016.gem (100%)  
+> Successfully installed password_dynamo-0.0.00016  
+> 1 gem installed  
+> Installing ri documentation for password_dynamo-0.0.00016...  
+> Installing RDoc documentation for password_dynamo-0.0.00016...  
+> 22:37 ~/Code: **dynamo**  
+> chopped ship grill howdy  
+> 22:37 ~/Code: **dynamo -c**  
+> visitation6door's-Formality-relative  
+> 22:37 ~/Code: **dynamo --complex**  
+> messed2cosmo-lawn-Complaint  
