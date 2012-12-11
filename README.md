@@ -1,8 +1,8 @@
-=== Password Dynamo - A Gem ===
+### Password Dynamo - A Gem ###
 
-[↳ Jump to how it works](#HowitWorks)
+[↳ Jump to how it works](#how-it-works)
 
-==== Background ====
+#### Background ####
 
 Password Dynamo is a command line tool that generates passphrases are difficult to guess but easy to remember.
 
@@ -12,7 +12,7 @@ Password Dynamo was built to assist in the process of selecting four random word
 
 This gem is based off of this [sinatra](http://password-dynamo.heroku.com/) [application](https://github.com/strand/password-dynamo) and was created for my [Ruby Course](http://www.pce.uw.edu/courses/ruby-core-language/downtown-seattle-autumn-2012/?certificate=8545) at the University of Washington.
 
-==== How it works ====
+#### How it works ####
 
 Install the gem with the command `gem install password-dynamo`. Then, at the command prompt, call `dynamo` and Password Dynamo will respond with a four word passphrase. If you call it with the `--complex` or `-c` flag it will respond with a complex passphrase which contains a capital letter, a number, dashes, and no spaces. This password will satisfy the complexity requirements of most sites. For example:
 
