@@ -5,7 +5,7 @@ require_relative "../lib/dynamo"
 
 case ARGF.argv.first
 when "-c", "--complex"
-	puts @dynamo.generate_password :complex
+  puts @dynamo.generate_password :complex
 else
-	puts @dynamo.generate_password
+  puts @dynamo.generate_password
 end
